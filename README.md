@@ -74,7 +74,7 @@ PRODIGY_WD_01/
 - Organization: Prodigy InfoTech  
 - Task ID: PRODIGY_WD_01  
 - Duration: 1 Month  
-- Domain: Front-End Web Development
+- Domain: Web Development
 
 ## License
 
