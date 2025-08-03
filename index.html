@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TuneMate</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <!-- Remix Icons-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- nav bar -->
+  <header id="navbar">
+    <div class="nav-container">
+      <h2 class="logo">TuneMate
+      </h2>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#feedback">Feedback</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+      <div class="auth-buttons">
+        <a href="#" class="login-btn">Login</a>
+        <a href="#" class="signup-btn">Sign Up</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Section -->
+  <section class="hero" id="home">
+    <div class="video-container">
+      <video autoplay muted loop playsinline>
+        <source src="assests/video/video7.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="overlay">
+      <div class="hero-content">
+        <h1>TuneMate</h1>
+        <p>Your Vibe. Your Playlist.</p>
+        <a href="#features" class="cta-btn">Explore</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features section -->
+  <section id="features" class="features-section">
+    <h2 class="section-title">Why TuneMate?</h2>
+    <div class="feature-cards">
+      <div class="feature-card">
+        <i class="ri-play-list-add-line feature-icon"></i>
+        <h3>Create Playlist</h3>
+        <p>Build custom playlists with your favorite tracks in seconds.</p>
+      </div>
+      <div class="feature-card">
+        <i class="ri-emotion-happy-line feature-icon"></i>
+        <h3>Mood-Based Tracks</h3>
+        <p>Pick your vibe and let us play the perfect soundtrack for it.</p>
+      </div>
+      <div class="feature-card">
+        <i class="ri-headphone-line feature-icon"></i>
+        <h3>Listen Anywhere</h3>
+        <p>Enjoy your music anytime, anywhere — totally device-free.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3D slider section -->
+   <section id="slider" class="slider-section">
+    <h2 class="section-title">
+      
+      Your Mood, Your Music</h2>
+    <div class="banner">
+      <div class="slider" style="--quantity: 4">
+        <div class="item" style="--position: 1">
+          
+            <img src="assests/images/rainy1.jpg" alt="Rainy Mood">
+            <div class="card-label">Rainy</div>
+          
+        </div>
+
+        <div class="item" style="--position: 2">
+          
+            <img src="assests/images/party1.jpg" alt="Party Mood">
+            <div class="card-label">Party</div>
+          
+        </div>
+
+        <div class="item" style="--position: 3">
+          
+            <img src="assests/images/focus1.jpg" alt="Focus Mood">
+            <div class="card-label">Focus</div>
+          
+        </div>
+
+        <div class="item" style="--position: 4">
+          
+            <img src="assests/images/chill1.jpg" alt="Chill Mood">
+            <div class="card-label">Chill</div>
+          
+        </div>
+
+      </div>
+
+    </div>
+  
+   </section>
+
+  <!-- Fake music player -->
+  <section class="music-player">
+    <div class="heading">
+      <h2 class="section-title">Feel It. Build It. Play It.</h2>
+      <p class="section-description">
+      From catching a vibe to curating the perfect tracks, TuneMate lets you create mood-based playlists in seconds. With a simple, intuitive interface, it’s never been easier to craft and enjoy your personalized soundtrack — anytime, anywhere.
+      </p>
+    </div>
+    <div class="player-card">
+      <h2>Now Playing</h2>
+      <img src="assests/images/album.jpg" alt="Album Art" class="album-art" />
+      <h3 class="song-title">Chill With Me</h3>
+      <p class="artist">Ft. TuneMate</p>
+
+      <div class="progress-bar">
+        <div class="progress"></div>
+      </div>
+
+      <div class="controls">
+        <button class="prev"><i class="ri-skip-back-fill"></i></button>
+        <button class="play" id="playToggle"><i class="ri-play-fill"></i></button>
+        <button class="next"><i class="ri-skip-forward-fill"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- reviews -->
+    <section class="reviews-section" id="reviews">
+      <h2 class="section-title">What Our Users Say</h2>
+      <div class="review-cards">
+    
+        <div class="review-card">
+          <i class="ri-user-3-fill avatar-icon"></i>
+          <div class="stars">★★★★★</div>
+          <p>"TuneMate completely changed the way I discover new music. I love how it adapts to my mood!"</p>
+          <h4>Arya Patel</h4>
+          
+        </div>
+
+        <div class="review-card">
+          <i class="ri-user-3-fill avatar-icon"></i>
+          <div class="stars">★★★★★</div>
+          <p>"The playlists are spot on. Super clean interface and easy to use. Highly recommend!"</p>
+          <h4>Dev Sharma</h4>
+          
+        </div>
+
+        <div class="review-card">
+          <i class="ri-user-3-fill avatar-icon"></i>
+          <div class="stars">★★★★★</div>
+          <p>"I’ve tried many music apps but TuneMate feels like it really gets me."</p>
+          <h4>Isha Mehta</h4>
+          
+        </div>
+
+      </div>
+    </section>
+
+
+  <!-- Feedback form -->
+   <section id="feedback" class="feedback-section">
+    <h2 class="section-title">We’d Love Your Feedback!</h2>
+    <form id="feedbackForm" class="feedback-form">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="review" placeholder="Your Review" rows="4" required></textarea>
+      <input type="hidden" id="rating" name="rating" value="0" />
+      <!-- Stars-->
+      <div class="star-rating">
+        <span class="star" data-value="1">★</span>
+        <span class="star" data-value="2">★</span>
+        <span class="star" data-value="3">★</span>
+        <span class="star" data-value="4">★</span>
+        <span class="star" data-value="5">★</span>
+      </div>
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+   </section>
+
+   
+  <!-- Footer -->
+   <footer class="footer-section" id="about">
+    <div class="footer-container">
+      <div class="footer-about">
+        <h2 class="footer-logo">TuneMate</h2>
+        <p>Your mood. Your music. Create personalized playlists and discover vibes that match your moment — all in one place.</p>
+      </div>
+
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#feedback">Feedback</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h3>Connect</h3>
+        <div class="social-icons">
+          <a href="#"><i class="ri-instagram-line"></i></a>
+          <a href="#"><i class="ri-twitter-x-line"></i></a>
+          <a href="#"><i class="ri-linkedin-box-line"></i></a>
+          <a href="#"><i class="ri-mail-line"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 <strong>TuneMate</strong> — Built with HTML, CSS & JS by Vamshika G D.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
