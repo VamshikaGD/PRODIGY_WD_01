@@ -1,4 +1,4 @@
-// Add "scrolled" class to navbar when page is scrolled
+// To add "scrolled" class to navbar when page is scrolled
 window.addEventListener('scroll', () => {
   const navbar = document.getElementById('navbar');
   if (window.scrollY > 50) {
